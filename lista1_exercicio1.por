@@ -3,14 +3,16 @@ programa
 	
 	funcao inicio()
 	{
-		real custofabrica, custofinal
-		
-		escreva("Quanto é o preço de fábrica do Honda Civic?")
-		leia(custofabrica)
+		real numero
+		escreva("Digite um número e veremos se ele é maior que 10:")
+		leia(numero)
 		limpa()
-		custofinal= custofabrica+((28*custofabrica)/100)+((28*custofabrica)/100)
 
-		escreva("O preço final ao consumidor será de R$ ",custofinal)
+		se(numero>10){
+			escreva("O número digitado é maior que 10")
+		}senao{
+			escreva("O número digitado não é maior que 10")
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -18,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 298; 
+ * @POSICAO-CURSOR = 273; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

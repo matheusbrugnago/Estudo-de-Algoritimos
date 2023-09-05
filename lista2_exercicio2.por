@@ -3,14 +3,16 @@ programa
 	
 	funcao inicio()
 	{
-		real custofabrica, custofinal
-		
-		escreva("Quanto é o preço de fábrica do Honda Civic?")
-		leia(custofabrica)
+		real numero
+		escreva("Digite um número e diremos se é positivo ou negativo:")
+		leia(numero)
 		limpa()
-		custofinal= custofabrica+((28*custofabrica)/100)+((28*custofabrica)/100)
 
-		escreva("O preço final ao consumidor será de R$ ",custofinal)
+		se(numero>=0){
+			escreva("Este número é positivo")
+		}senao{
+			escreva("Este número é negativo")
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -18,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 298; 
+ * @POSICAO-CURSOR = 249; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
