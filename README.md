@@ -1,2 +1,2 @@
 # Estudo de Algoritimos
- Loacal de estudo de Programação por meio do Portugol
+ Local de estudo de Programação por meio do Portugol
